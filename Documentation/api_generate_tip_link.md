@@ -1,4 +1,4 @@
-# Generate　Tip　Link Endpoint Instruction
+# Generate Tip Link Endpoint Instruction
 This version of endpoint supports dynamic tip link creation for up to 2 receivers in html formats
 
 ## Input Parameter
