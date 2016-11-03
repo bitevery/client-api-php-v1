@@ -27,10 +27,14 @@ A string of tip link in html format.
 Accounts information(email, access_code) provided in argument will be encrypted using BitEvery public key and therefore won't be visible by third party.
 
 ## Implementation Steps
-1. enable OpenSSL on PHP.  --> in php.ini set extension=php_openssl.dll
+1. make sure OpenSSL on PHP is enabled.  --> in php.ini set extension=php_openssl.dll
 2. Request API access and get API Access code by login BitEvery --> Setting -->API Setting.
-2. include script in html head. -->  <script src="https://www.bitevery.com/be-js/tip_button.js"></script>
-3. call api follow examples below.
+3. include following script tag in html head. 
+4. call api.
+```
+<script src="https://www.bitevery.com/be-js/tip_button.js"></script>
+```
+
 
 ## example
 ### Single Receiver
